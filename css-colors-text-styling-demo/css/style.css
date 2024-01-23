@@ -1,0 +1,39 @@
+#first-paragraph{
+    color: darkolivegreen;
+    background-color: palegoldenrod;
+    font-style: italic;
+    text-align: center;
+}
+
+#second-paragraph{
+    color:#FF88AA;
+    background-color:darkred;
+    text-align: right;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#bold-paragraph { 
+    font-weight:bold;
+    background-color:aquamarine;
+}
+
+#s1 {
+    color: crimson;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#s2 {
+    font-style: italic;
+    text-decoration: line-through;
+
+}
+
+#s3 {
+    background-color: yellow;
+}
+
+#s4 {
+    text-align: right;
+}

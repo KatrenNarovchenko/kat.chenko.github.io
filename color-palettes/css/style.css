@@ -4,8 +4,8 @@
 
 }
 
-#pnh-1{
-    background-color: #ffc800;
+#hd-1{
+    background-color: #e4b593;
     color: #222;
     font-family:Arial, Helvetica, sans-serif;
     text-align:center;
@@ -13,8 +13,8 @@
 }
 
 
-#pnh-2{
-    background-color: #fd8b7c;
+#hd-2{
+    background-color: #d06437;
     color: #222;
     font-family:Arial, Helvetica, sans-serif;
     text-align:center;
@@ -22,10 +22,93 @@
 }
 
 
-#pnh-3{
-    background-color: #c0564b;
+#hd-3{
+    background-color: #eb8195;
     color: #222;
     font-family:Arial, Helvetica, sans-serif;
     text-align:center;
     padding: 24px;
+}
+
+#hd-4{
+    background-color: #b55656;
+    color:#222;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding: 24px;
+
+}
+
+
+#nl-1{
+    background-color: #4530A0;
+    color:#000;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding: 24px;
+   
+}
+
+#nl-2{
+        background-color: #d157d5;
+        color:#222;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align:center;
+        padding: 24px;
+     
+}
+
+#nl-3{
+    background-color: #45989A;
+    color:#222;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding: 24px;
+
+}
+
+#nl-4{
+    background-color: #15103B;
+    color:#777;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding: 24px;
+
+}
+
+
+#sm-1{
+    background-color: #6d8075;
+    color:#222;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding: 24px;
+
+}
+
+#sm-2{
+    background-color: #839788;
+    color:#222;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding: 24px;
+
+}
+
+#sm-3{
+    background-color: #bdbbb6;
+    color:#222;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding: 24px;
+
+}
+
+#sm-4{
+    background-color: #e5d1d0;
+    color:#222;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding: 24px;
+
 }

@@ -1,0 +1,159 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Upside-down Tetris assignment.
+
+    Good luck, and have fun!
+*/
+.tetris-block {
+    padding: 25px;
+    border-width: 5px;
+    border-style: inset;
+    display: inline-block;
+}
+
+.pink {
+    background-color: pink;
+    border-color: pink;
+
+}
+
+.lb {
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+.lg {
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
+
+.lc {
+    background-color: lightcoral;
+    border-color: lightcoral;
+}
+
+.empty {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.ly {
+    background-color: lightyellow;
+    border-color: lightyellow;
+}
+
+.pink {
+    background-color: pink;
+    border-color: pink;
+
+}
+
+.lc {
+    background-color: lightcoral;
+    border-color: lightcoral;
+}
+
+.lg {
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
+
+.empty {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.empty {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.pink {
+    background-color: pink;
+    border-color: pink;
+
+}
+
+.lb {
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+.empty {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.ly {
+    background-color: lightyellow;
+    border-color: lightyellow;
+}
+
+.lb {
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+.lc {
+    background-color: lightcoral;
+    border-color: lightcoral;
+}
+
+.empty {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.empty {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.lg {
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
+
+.lg {
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
+
+.empty {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.lb {
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+.pink {
+    background-color: pink;
+    border-color: pink;
+
+}
+
+.pink {
+    background-color: pink;
+    border-color: pink;
+
+}
+
+.ly {
+    background-color: lightyellow;
+    border-color: lightyellow;
+}
+
+.empty {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.lc {
+    background-color: lightcoral;
+    border-color: lightcoral;
+}

@@ -1,0 +1,91 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license {
+    border: 3px solid black;
+    width: 90%;
+    height: 60%;
+    background-color: goldenrod;
+    display: inline-block;
+}
+
+#content {
+    color: darkblue;
+}
+
+#left-side {
+    color: white;
+    text-align: left;
+    background-color: darkblue;
+}
+
+#id-and-expiration div {
+    color: darkblue;
+    background-color: goldenrod;
+    display: inline-block;
+}
+
+#address {
+    background-color: goldenrod;
+    color: black;
+    display: inline-block;
+}
+
+span {
+    color: red;
+}
+
+#data-fields {
+    color: black;
+    background-color: goldenrod;
+    border: 2px soild blue;
+    display: inline-block;
+}
+
+#small-pic {
+    display: inline-block;
+    background-color: goldenrod;
+    object-fit: cover;
+    border: 2px solid black;
+    width: 150px;
+}
+
+#data-left, #data-right {
+    border: 2px soild black;
+    color: black;
+}
+
+#data-left, #data-right {
+    display: inline-block;
+    color: blue;
+}
+
+#right-side {
+    text-align: right;
+
+}
+
+.fa-soild fa-heart {
+    color: red;
+}
+
+.fa-soild fa-star {
+    color: yellow;
+    display: inline-block;
+}
+
+#donor {
+    color: red;
+    display: inline-block;
+
+}
+#real-id {
+    color: yellow;
+    display: inline-block;
+
+}

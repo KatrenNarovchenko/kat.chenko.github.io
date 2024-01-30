@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 /*
     NOTE TO STUDENTS: 
 
@@ -7,52 +8,74 @@
     Good luck, and have fun!
 */
 #license {
-    border: 3px solid black;
-    width: 90%;
-    height: 60%;
-    background-color: goldenrod;
-    display: inline-block;
+    border: 2px solid black;
+    width: 700px;
+    border-radius: 6px;
+    background: linear-gradient(55deg, lightcoral, skyblue);
+    padding: 24px;
+}
+
+h4 {
+    background-color: navy;
+    color: azure;
+    text-align: center;
+    font-size: 24px;
+    margin: 0px;
+    padding: 8px;
+}
+
+h1 {
+    color: navy;
+    font-size: 60px;
 }
 
 #content {
     color: darkblue;
 }
 
+#left-side,
+#right-side {
+    display: inline-block;
+}
+
 #left-side {
-    color: white;
-    text-align: left;
-    background-color: darkblue;
+    border: 2px soild red;
+    max-width: 65%;
+}
+
+#right-side img {
+    width: 100%;
 }
 
 #id-and-expiration div {
     color: darkblue;
-    background-color: goldenrod;
     display: inline-block;
 }
 
 #address {
-    background-color: goldenrod;
     color: black;
     display: inline-block;
+    font-weight: bold;
+    margin: 9px;
 }
 
 span {
     color: red;
+    font-weight: bold;
+    
 }
 
-#data-fields {
+#data-fields, #small-pic {
     color: black;
-    background-color: goldenrod;
     border: 2px soild blue;
     display: inline-block;
 }
 
-#small-pic {
+#small-pic img {
     display: inline-block;
-    background-color: goldenrod;
     object-fit: cover;
-    border: 2px solid black;
-    width: 150px;
+    width: 90px;
+    opacity: 0.5;
 }
 
 #data-left, #data-right {
@@ -67,6 +90,7 @@ span {
 
 #right-side {
     text-align: right;
+    width: 40%;
 
 }
 
@@ -82,10 +106,16 @@ span {
 #donor {
     color: red;
     display: inline-block;
-
 }
+
 #real-id {
     color: yellow;
     display: inline-block;
 
+}
+#signature {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
 }

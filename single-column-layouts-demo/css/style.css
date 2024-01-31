@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.light-container {
+    background-color: lightpink;
+    padding: 48px 0px;
+}
+
+.dark-container {
+    padding: 48px 0px;
+    background-color: darkred;
+    color: blanchedalmond;
+}
+
+.light-container2 {
+    color: black;
+    background-color: lightpink;
+    padding: 48px 0px;
+}

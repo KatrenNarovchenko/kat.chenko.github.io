@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.light-container {
+    background-color: rgb(235, 235, 235);
+    color: lightslategray;
+}
+
+h1 {
+    color: darkblue;
+    opacity: 0.5;
+}
+
+#s-1 {
+    font-style: italic;
+}
+
+.med-container {
+    background-color: rgb(45, 54, 54);
+    padding: 5%;
+}
+
+h3 {
+    color: silver;
+}
+
+.last-container {
+    padding: 5%;
+    background-color: rgb(188, 202, 188);
+    color: darkblue;
+    display: inline-block;
+
+}
+
+#s-2 {
+    opacity: 0.5;
+}
+
+h2 {
+    opacity: 0.5;
+}

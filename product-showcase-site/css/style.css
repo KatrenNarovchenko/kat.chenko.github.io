@@ -16,7 +16,7 @@ body {
 }
 
 .light-container {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(235,235,235);
     color: lightslategray;
 }
 
@@ -52,3 +52,4 @@ h3 {
 h2 {
     opacity: 0.5;
 }
+

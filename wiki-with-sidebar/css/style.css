@@ -48,3 +48,7 @@ h2 {
     opacity: 0.7;
     color: rgb(26, 26, 82);
 }
+#e1 #e2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

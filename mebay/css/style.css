@@ -53,7 +53,7 @@ body {
     so you can see the boundaries of the column boxes.
 */
 
-#three-columns {
+#four-columns {
     /* STEP 2 */
     display: grid;
 
@@ -83,16 +83,16 @@ body {
 
         So we get 1/3, 1/3, and 1/3 for each column.
     */
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.3fr 1fr 1fr 1fr;
 }
 
 
 #grid-layout {
     display: grid;
-    grid-template-columns: 250px 1fr 1fr;
+    grid-template-columns: 0.5fr 0.5fr 1fr 1fr;
     grid-template-areas: 
-        "header header header"
-        "column-1 column-2 column-3"
+        "header header header header"
+        "column-1 column-2 column-3 column-4"
     ;
 }
 
@@ -138,8 +138,15 @@ h3 {
 }
 
 #column-3 {
-    background-color: rgb(219, 205, 214);
+    background-color: rgb(242, 234, 237);
 }
+
+#column-4 {
+    background-color: rgb(242, 234, 237);
+    display: grid;
+
+}
+
 #header #me {
     color: rgb(116, 8, 8);
 }
@@ -187,7 +194,7 @@ h4 {
 #box1 {
     display: flex;
     justify-content: center;
-    background-color: rgb(235, 155, 189);
+    background-color: rgb(237, 156, 191);
     margin: 15px 15px 15px;
     text-align: center;
     padding: 12px;
@@ -196,7 +203,7 @@ h4 {
 #box2 {
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 224, 247);
+    background-color: rgb(196, 115, 176);
     margin: 15px 15px 15px;
     text-align: center;
     padding: 12px;
@@ -244,4 +251,41 @@ h4 {
 #heart2 {
     display: flex;
     justify-content: center;
+}
+
+#c4-1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin: 15px 15px 15px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+}
+#c4-2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin: 15px 15px 15px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+}
+#c4-3 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin: 15px 15px 15px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+}
+#c4-4 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(200, 200, 200);
+    margin: 15px 15px 15px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
 }

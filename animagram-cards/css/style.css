@@ -14,53 +14,65 @@ body {
     margin: 0px;
 }
 #section-2 {
-    display: block;
-}
-
-.card-container {
-    max-width: 350px;
     display: flex;
     flex-wrap: wrap;
 }
 
-#animagram-card-1 {
-    background-color: white;
-    border-radius: 10%;
-    width: 500px;
-    height: 520px;
-    padding: 20px;
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
 }
 
-#animagram-card-1 img {
+
+.card-style-2 {
+    background-color: white;
+    border-radius: 10%;
+    width: 350px;
+    padding: 30px;
+    align-items: center;
+    margin: 15px;
+    
+}
+
+.card-style-2 img {
     width: 200px;
     border-radius: 50%;
-    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .brand-name {
     display: flex;
     justify-content: flex-end;
     font-size: 30px;
-    margin-top: 0px;
+    margin: 0px;
 }
 
 .logo {
     display: flex;
     justify-content: flex-start;
+    margin: 0px;
+}
+
+.card-style-2 h2 {
+    text-align: center;
+}
+
+.card-style-2 p {
+    text-align: center;
     margin-bottom: 0px;
-}
-
-#animagram-card-1 h2 {
-    text-align: center;
-}
-
-#animagram-card-1 p {
-    text-align: center;
-    margin-bottom: 35px;
+    margin-top: 40px;
 }
 
 .animagram-footer {
     display: flex;
     justify-content: space-between;
     font-size: 24px;
+    margin-top: 40px;
+}
+
+.animagram-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

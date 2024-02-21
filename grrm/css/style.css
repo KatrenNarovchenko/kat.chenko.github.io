@@ -496,7 +496,12 @@ body {
         font-size: 65px;
         margin-right: 10%;
     }
-    #banner-container {
+    #banner-container,
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main  {
         padding: 0px;
         margin: 0px ;
         background-color: transparent;

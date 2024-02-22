@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+#gallery1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card-a {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid pink;
+    border-radius: 12px;
+}
+.card-a img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+.card-a:hover {
+    background-color: rgb(249, 185, 230);
+    box-shadow: 4px 4px 4px #0003;
+    transform: translateY(-4px);
+}
+.card-a {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+.card-b {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid pink;
+    border-radius: 12px;
+}
+.card-b img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+.card-b img:hover {
+    opacity: 0;
+    visibility: hidden;
+}
+.card-b {
+    transition: 
+        opacity 0.5s,
+        visability 0.5s;
+}
+.card-c {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid pink;
+    border-radius: 12px;
+}
+.card-c img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+.card-c a {
+    text-decoration: none;
+    color: rgb(143, 113, 6);
+    display: block;
+    border: 3px solid rgb(129, 102, 102);
+    padding: 12px;
+    margin-top: 36px;
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+
+}
+.card-c:hover a {
+    background-color: rgb(225, 239, 157);
+    box-shadow: 4px 4px 4px #0003;
+    transform: translateY(-4px);
+}

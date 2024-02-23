@@ -4,4 +4,118 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(237, 210, 186);
+}
+#navbar {
+    background-color: rgb(245, 162, 67);
+    display: flex;
+    align-items: center;
+}
+#navbar a {
+    display: inline-block;
+    padding: 24px;
+    color: white;
+    text-decoration: none;
+}
+#navbar a:hover {
+    background-color: rgb(253, 145, 133);
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 13px 24px 12px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s;
+}
+.dropdown-menu a {
+    background-color: salmon;
+    width: 100%;
+    min-width: 200px;
+}
+.dropdown:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+#navbar .dropdown-menu a:hover {
+    background-color: rgb(226, 148, 12);
+}
+
+#two-columns {
+    display: flex;
+}
+#pet-name {
+    text-align: center;
+    padding: 24px;
+    color: rgb(183, 64, 84);
+}
+
+#image img {
+    background-color: rgb(222, 218, 252);
+    width: 200px;
+    padding: 24px;
+
+}
+#image {
+    margin: 24px;
+    padding: 24px;
+}
+#content {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin: 15px 15px 15px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+}
+#button {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 156, 191);
+    margin: 15px 15px 15px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#content a {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#hero {
+    background-image: url(../images/adopt.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .hero-content {
+    text-align: center;
+    padding-bottom: 70vh;
+
+}
+#hero h2 {
+    font-size: 50px;
+    color: #f5e1e1;
+}
+
+/* Media queries */
+@media screen and (min-width: 480px) {
+    background-color: red;
 }

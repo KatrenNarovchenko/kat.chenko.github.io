@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, rgb(193, 231, 131), #223892);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#navbar img {
+    width: 100px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+#hero {
+    background-image: url(../images/photo1.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#hero h1 {
+    font-size: 10vw;
+    color: rgb(242, 173, 211);
+}
+#hero .hero-content {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+#hero h3 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: beige;
+}
+#hero a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #a33d3d;
+    color: beige;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    border-radius: 20px;
+}
+.sub {
+    display: flex;
+    justify-content: center;
+    color: #a33d3d;
+}
+
+#menu-content {
+    border-radius: 3%;
+    border: 10px solid rgb(191, 90, 90);
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.card img {
+    display: flex;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+}
+
+#card1 {
+    position: relative;
+
+}
+#menu-content .card-content {
+    position: absolute;
+    background-color: pink;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #0003;
+    margin: 0px 24px;
+    padding: 12px;
+    left: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-12px);
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+#menu-content:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+
+
+
+
+/* media queries */
+@media screen and (max-width: 500px) and (min-width: 320px) {
+   #navbar {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+   }
+   #hero h1 {
+    font-size: 35px;
+    padding-top: 170px;
+   }
+   #hero h3 {
+    font-size: 20px;
+    text-align: center;
+   }
+   #hero a {
+    font-size: 10px;
+    text-align: center;
+   }
+    
+}

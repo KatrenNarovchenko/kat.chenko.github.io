@@ -3,15 +3,16 @@
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #header {
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 #navbar {
-    background: linear-gradient(to bottom, rgb(193, 231, 131), #223892);
+    background: linear-gradient(to bottom, rgb(250, 233, 40), #4660c8);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,43 +40,54 @@ body {
 }
 
 #hero h1 {
-    font-size: 10vw;
-    color: rgb(242, 173, 211);
+    font-size: 7vw;
+    color: rgb(157, 177, 236);
 }
 #hero .hero-content {
     position: absolute;
     top: 30%;
     left: 15%;
 }
-
+#hero .hero-content img {
+    display: flex;
+    width: 460px;
+    display: flex;
+    justify-content: center;
+  
+}
 #hero h3 {
-    font-size: 3vw;
-    margin: 0px 5vw 0px 0px;
+    font-size: 2vw;
     color: beige;
 }
 #hero a {
     font-size: 1.5vw;
     display: inline-block;
-    background-color: #a33d3d;
+    background-color: #3c5fe1e5;
     color: beige;
     text-decoration: none;
     padding: 24px;
-    margin: 5vh 5vw 10vh 0px;
+    margin: 2vh 5vw 1vh 10px;
     border-radius: 20px;
+    margin-bottom: 25%;
 }
 .sub {
     display: flex;
     justify-content: center;
-    color: #a33d3d;
+    color: #010642d0;
 }
-
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 #menu-content {
     border-radius: 3%;
-    border: 10px solid rgb(191, 90, 90);
+    border: 5px solid rgba(95, 90, 191, 0.542);
     width: 350px;
     padding: 30px;
     text-align: center;
     margin: 10px;
+
 }
 .card img {
     display: flex;
@@ -83,12 +95,11 @@ body {
     display: flex;
     justify-content: center;
 }
-
 #card1 {
     position: relative;
-
 }
-#menu-content .card-content {
+
+#card1 .card-content {
     position: absolute;
     background-color: pink;
     border: 3px solid black;
@@ -105,16 +116,55 @@ body {
         visibility 0.5s,
         transform 0.5s;
 }
-#menu-content:hover .card-content {
+#card1:hover .card-content {
     opacity: 1;
     visibility: visible;
     transform: translateY(0px);
 }
 
+#menu-content2 {
+    border-radius: 3%;
+    border: 5px solid rgba(97, 90, 191, 0.59);
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+}
+#card2 {
+    position: relative;
+}
 
-
-
-
+#card2 .card-content {
+    position: absolute;
+    background-color: pink;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #0003;
+    margin: 0px 24px;
+    padding: 12px;
+    left: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-12px);
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+#footer {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+#footer-container {
+    background: rgba(204, 155, 90, 0.511);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer-container img {
+    width: 100px;
+}
 /* media queries */
 @media screen and (max-width: 500px) and (min-width: 320px) {
    #navbar {

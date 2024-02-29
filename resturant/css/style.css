@@ -161,9 +161,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 #footer-container img {
     width: 100px;
+}
+#footer-container h3 {
+    font-size: 10px;
 }
 /* media queries */
 @media screen and (max-width: 500px) and (min-width: 320px) {

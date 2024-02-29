@@ -21,6 +21,14 @@ body {
     text-decoration: none;
     color: white;
     padding: 24px;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
+#navbar a:hover {
+    background-color: transparent;
+    color: rgb(17, 9, 96);
 }
 #navbar img {
     width: 100px;
@@ -56,8 +64,9 @@ body {
   
 }
 #hero h3 {
-    font-size: 2vw;
-    color: beige;
+    font-size: 3vw;
+    color: rgba(247, 225, 173, 0.85);
+    font-family: "Lexend", sans-serif;
 }
 #hero a {
     font-size: 1.5vw;
@@ -69,11 +78,24 @@ body {
     margin: 2vh 5vw 1vh 10px;
     border-radius: 20px;
     margin-bottom: 25%;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
 }
+
+#hero a:hover {
+    background-color: yellow;
+    color: rgb(6, 2, 32);
+}
+
 .sub {
     display: flex;
     justify-content: center;
-    color: #010642d0;
+    color: #00031cd0;
+    font-family: "Lexend", sans-serif;
+    padding-top: 35px;
+    padding-bottom: 0px;
 }
 #card-container {
     display: flex;
@@ -82,12 +104,45 @@ body {
 }
 #menu-content {
     border-radius: 3%;
-    border: 5px solid rgba(95, 90, 191, 0.542);
+    border: 5px solid rgba(46, 44, 96, 0.542);
     width: 350px;
     padding: 30px;
     text-align: center;
     margin: 10px;
 
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    border: 5px solid rgba(46, 44, 96, 0.542);
+    border-radius: 16px;
+    margin: 40px;
+    padding: 0px;
+    background-color: white;
+}
+
+.side-by-side .image img {
+    width: 100%;
+}
+
+.side-by-side .image {
+    flex: 1;
+}
+
+.side-by-side .text {
+    flex: 1;
+    padding: 36px;
+}
+
+.side-by-side .text h3 {
+    font-size: 48px;
+}
+.text {
+    text-align: center;
+}
+#menu-content {
+    background-color: white;
 }
 .card img {
     display: flex;
@@ -121,14 +176,22 @@ body {
     visibility: visible;
     transform: translateY(0px);
 }
-
+.text h2 {
+    font-family: "Permanent Marker", cursive;
+    font-size: 44px;
+}
+.card-content h4 {
+    font-family: "Permanent Marker", cursive;
+    font-size: 24px;
+}
 #menu-content2 {
     border-radius: 3%;
-    border: 5px solid rgba(97, 90, 191, 0.59);
+    border: 5px solid rgba(46, 44, 96, 0.542);
     width: 350px;
     padding: 30px;
     text-align: center;
     margin: 10px;
+    background-color: white;
 }
 #card2 {
     position: relative;
@@ -176,17 +239,43 @@ body {
     align-items: center;
     flex-wrap: wrap;
    }
+   #logo img {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+   }
+
    #hero h1 {
     font-size: 35px;
     padding-top: 170px;
    }
    #hero h3 {
-    font-size: 20px;
+    font-size: 14px;
     text-align: center;
+   }
+   #hero img {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 80px;
    }
    #hero a {
     font-size: 10px;
     text-align: center;
    }
-    
+   .side-by-side {
+    border-radius: 16px;
+   }
+   .side-by-side .text {
+    display: flex;
+    flex-direction: column;
+   }
+   .text h2 {
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+   }
+    .text h4 {
+        font-size: 12px;
+        justify-content: center;
+    }
 }

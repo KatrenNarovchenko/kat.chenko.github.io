@@ -7,7 +7,7 @@ body {
     background-color:  #4e3417e2;
 }
 #body {
-    background-color: white;
+    background-color: rgba(238, 222, 207, 0.943);
 }
 #header {
     position: sticky;
@@ -100,7 +100,7 @@ body {
     display: flex;
     font-family: "Ojuju", sans-serif;
     justify-content: center;
-    color: #00031cd0;
+    color: #4e380fe3;
     padding-top: 35px;
     padding-bottom: 0px;
 }
@@ -112,7 +112,7 @@ body {
 }
 #menu-content {
     border-radius: 3%;
-    border: 5px solid rgba(46, 44, 96, 0.542);
+    border: 5px solid rgba(152, 126, 93, 0.542);
     width: 350px;
     padding: 30px;
     text-align: center;
@@ -123,7 +123,7 @@ body {
 .side-by-side {
     display: flex;
     align-items: center;
-    border: 5px solid rgba(46, 44, 96, 0.542);
+    border: 5px solid rgba(152, 126, 93, 0.542);
     border-radius: 16px;
     margin: 80px;
     padding: 0px;
@@ -194,7 +194,7 @@ body {
 }
 #menu-content2 {
     border-radius: 3%;
-    border: 5px solid rgba(46, 44, 96, 0.542);
+    border: 5px solid rgba(152, 126, 93, 0.542);
     width: 350px;
     padding: 30px;
     text-align: center;

@@ -45,6 +45,7 @@ body {
 }
 #hero {
     background-image: url(../images/photo1.png);
+    opacity: 85%;
     background-size: cover;
     background-position: center center;
     height: 100vh;

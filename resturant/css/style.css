@@ -16,7 +16,7 @@ body {
 }
 
 #navbar {
-    background-color:  #6b4c29ca;
+    background-color:  #6b4c2974;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +72,7 @@ body {
 }
 #hero h3 {
     font-size: 3vw;
-    color: rgba(247, 225, 173, 0.85);
+    color: #c3e1fc;
     font-family: "Lexend", sans-serif;
 }
 #hero a {
@@ -241,11 +241,11 @@ body {
     opacity: 85%;
 }
 #footer-container h3 {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Playfair Display", serif;
 }
 #footer-container ul {
-    font-size: 10px;
+    font-size: 13px;
     font-weight: bold;
     font-family: "Playfair Display", serif;
 }

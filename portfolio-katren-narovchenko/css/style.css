@@ -11,8 +11,18 @@ body {
 }
 .hero-content h2 {
     justify-content: center;
+    font-size: 85px;
     font-family: "Ysabeau SC", sans-serif;
 }
+.hero-content h3 {
+    justify-content: center;
+    font-size: 24px;
+    font-family: "Ysabeau SC", sans-serif;
+    color: #a04b4b;
+}
+
+
+
 #section-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
